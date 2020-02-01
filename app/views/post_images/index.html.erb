@@ -35,6 +35,7 @@
     <%= attachment_image_tag post_image, :image %>
 <% end %>
             <% end %>
+            <%= paginate @post_images, class: "paginate" %>
         </div>
       </div>
     </div>
